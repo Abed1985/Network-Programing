@@ -3,7 +3,7 @@ import subprocess
 import easysnmp
 
 #Importing the csv file that contains the device names and IP addresses. ex. device_list.csv
-file = csv.reader(open('SSG-2-MOD.csv'),delimiter = ',')
+file = csv.reader(open('devices_list.csv'),delimiter = ',')
 #below commands used to skip first row of the csv which is the heading
 next(file)
 #looping over the device file
