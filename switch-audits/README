@@ -1,0 +1,13 @@
+This program will basically create a CSV file called "Potential_switch_ports.csv"
+which constitutes a list of switch and ports that have more than 3 mac addresses learned on
+The purpose of this , is that sometiems we onboard new network switches with no information 
+on potential switches that should be managed or how the network is connected. While there is alot
+of approaches for network discovery this is useful and handy to locate other connected switches and access points.
+
+
+1 - run the first code with "python3 create_devicedb.py" this will create the device list database from user input
+The supported devices are cisco/hp/dell switches. This code will create a yml file as the database using jinja2 to be usedin the next code.
+
+2- After the first code run and the user exist. run "python3 switch-audit-2.py" this will use the database to connect to the devices using the netmiko library along with NTC template to format the show mac address table command accross devices.
+
+The output will be the csv file .
