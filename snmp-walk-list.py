@@ -18,6 +18,8 @@ for line in file :
        print (status)
        #following command in easysnmp uses the ip from the csv , along with a community string , with version 2 . This part is editable to suit the needs of community string, snmp version.
        session = easysnmp.Session(hostname = '%s'%ip,community= 'NmSm0n1tor',version=2)
+       #an example using snmpv3 walk with auth , privacy is not used , then "auth_without_privacy" is as the security_level parameter .
+       #session = easysnmp.Session(hostname='%s'%ip,version=3,security_level="auth_with_privacy",security_username="snmpuser",auth_protocol="SHA",auth_password='authpass',privacy_protocol="AES",privacy_password="PASSWORD"
        try:
           #trying to get the sysdescription oid  
           description = session.get('.1.3.6.1.2.1.1.1.0')
