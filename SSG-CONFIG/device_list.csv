@@ -1,0 +1,4 @@
+device_name,ip_address,username,password
+office-firewall-01,10.147.15.130,Admin01,Password01
+office-firewall-02,10.147.15.131,Admin02,Password02
+office-firewall-03,10.147.15.132,Admin03,Password03
