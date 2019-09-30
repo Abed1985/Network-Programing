@@ -1,0 +1,10 @@
+Remote Management Console
+office-firewall-02-> 
+office-firewall-02-> set route 192.168.40.0/24 interface tunnel.1
+office-firewall-02-> set route 192.168.50.0/24 interface tunnel.1
+office-firewall-02-> set snmp community "public" Read-Only version v2c
+office-firewall-02-> set snmp host "public" 192.168.40.0 255.255.255.0 src-interface lo.1
+office-firewall-02-> set snmp host "public" 192.168.50.0 255.255.255.0 src-interface lo.1
+office-firewall-02-> set snmp port listen 161
+office-firewall-02-> exit
+Configuration modified, save? [y]/n y
