@@ -1,0 +1,14 @@
+snmp-server group RO v3 auth read R-VIEW access 23 
+snmp-server group RW v3 auth write W-VIEW access 23 
+snmp-server user CommsREAD RO v3 auth md5 ReadCOMM 
+snmp-server user CommsWRITE RW v3 auth md5 WriteCOMM 
+snmp-server view R-VIEW iso included 
+snmp-server view W-VIEW iso included 
+snmp-server location Canberra 
+access-list 23 remark --- Allow Management from Brennan ---
+access-list 23 permit 172.16.16.0 0.0.1.255
+access-list 23 permit 172.16.17.0 0.0.1.255
+access-list 23 permit 10.62.5.0 0.0.0.255
+
+
+

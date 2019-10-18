@@ -1,0 +1,19 @@
+config term
+Enter configuration commands, one per line.  End with CNTL/Z.
+XR-CB62-SW01(config)#snmp-server group RO v3 auth read R-VIEW access 23
+XR-CB62-SW01(config)#snmp-server group RW v3 auth write W-VIEW access 23
+XR-CB62-SW01(config)#snmp-server user CommsREAD RO v3 auth md5 ngoovo72
+XR-CB62-SW01(config)#snmp-server user CommsWRITE RW v3 auth md5 cezigu84
+XR-CB62-SW01(config)#snmp-server view R-VIEW iso included
+XR-CB62-SW01(config)#snmp-server view W-VIEW iso included
+XR-CB62-SW01(config)#snmp-server location Canberra
+XR-CB62-SW01(config)#access-list 23 remark --- Allow Management from Brennan ---
+XR-CB62-SW01(config)#access-list 23 permit 210.18.250.0 0.0.1.255
+XR-CB62-SW01(config)#access-list 23 permit 210.18.244.0 0.0.1.255
+XR-CB62-SW01(config)#access-list 23 permit 210.18.254.0 0.0.1.255
+XR-CB62-SW01(config)#access-list 23 permit 10.62.5.0 0.0.0.255
+XR-CB62-SW01(config)#
+XR-CB62-SW01(config)#
+XR-CB62-SW01(config)#
+XR-CB62-SW01(config)#end
+XR-CB62-SW01#

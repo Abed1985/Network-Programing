@@ -1,0 +1,218 @@
+---
+
+10.162.101.10:
+    host: 10.162.101.10
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.101.2:
+    host: 10.162.101.2
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.101.3:
+    host: 10.162.101.3
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.101.11:
+    host: 10.162.101.11
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.101.12:
+    host: 10.162.101.12
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.103.2:
+    host: 10.162.103.2
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.103.3:
+    host: 10.162.103.3
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.103.4:
+    host: 10.162.103.4
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.103.5:
+    host: 10.162.103.5
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.104.2:
+    host: 10.162.104.2
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.104.3:
+    host: 10.162.104.3
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.104.4:
+    host: 10.162.104.4
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.104.5:
+    host: 10.162.104.5
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.104.6:
+    host: 10.162.104.6
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.104.7:
+    host: 10.162.104.7
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.104.8:
+    host: 10.162.104.8
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.104.9:
+    host: 10.162.104.9
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.104.10:
+    host: 10.162.104.10
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.105.10:
+    host: 10.162.105.10
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.105.2:
+    host: 10.162.105.2
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.105.3:
+    host: 10.162.105.3
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.105.11:
+    host: 10.162.105.11
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.105.12:
+    host: 10.162.105.12
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.105.13:
+    host: 10.162.105.13
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.106.2:
+    host: 10.162.106.2
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.106.3:
+    host: 10.162.106.3
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
+10.162.102.2:
+    host: 10.162.102.2
+    username: username 
+    password: "password"
+    device_type: cisco_ios
+    global_delay_factor: 5
+
+
