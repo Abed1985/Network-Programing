@@ -1,0 +1,7 @@
+#creating the configuration Files from the jinja template file - Conf_template.j2, this will create 10.x.x.x.txt files depending on device_list.csv
+# python3 create_config_files.py 
+# creating host files dev_list.yml from the dev_list.csv which the main script will use to login to devices via ssh.
+# python3 create_host_file.py
+#execute the main script that will puth the configuration files to the devices.
+# python3 dhcp-chg.py
+# an ouptut example has been shared as example_cfg-10.162.106.2.txt . similar file will be generated for verfication after the script executes.
