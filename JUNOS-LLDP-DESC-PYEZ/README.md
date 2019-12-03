@@ -1,4 +1,4 @@
-ode utilizes Juniper PyeZ to pring the output of interface description and LLDP output information
+The code utilizes Juniper PyeZ to pring the output of interface description and LLDP output information
 # in an excel workbook , sheet per host 
 # usage : python3 junos-desc-lldp.py "root" , where "root" is the username to connect to devices ssh/netconf and will prompt 
 # the user for a password
