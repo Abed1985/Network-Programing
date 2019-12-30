@@ -1,2 +1,3 @@
 # Network-Programming
-Useful codes for Networking and Security Applications
+I create/script Useful codes for Networking and Security Applications.
+Feel free to reuse with referencing.
