@@ -5,7 +5,7 @@ snmp-server user CommsWRITE RW v3 auth md5 WriteCOMM
 snmp-server view R-VIEW iso included 
 snmp-server view W-VIEW iso included 
 snmp-server location {{ location }} 
-access-list 23 remark --- Allow Management from Brennan ---
+access-list 23 remark --- Allow Management from xx ---
 access-list 23 permit 172.16.16.0 0.0.1.255
 access-list 23 permit 172.16.17.0 0.0.1.255
 access-list 23 permit {{ subnet }}
